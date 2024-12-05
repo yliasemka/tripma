@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import GradienMap from '../../assets/GradienMap.png';
+import GradienMap from '../../assets/GradientMap2.png';
 
 
 const StyleMainSection = styled.section`
@@ -27,6 +27,10 @@ const StyleMainHeader = styled.h1 `
     margin-bottom: 48px;
     text-align:center;
     width: 756px;
+    background: linear-gradient(to bottom right, blue, pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 `;
 
 
