@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+button {
+font-family: inherit;
+border: 0;
+background: none;
+outline: none;
+}
+input {
+border: none;
+}
+input:focus{
+  outline: none;
+}
+
+body {
+font-family: 'Nunito Sans', sans-serif;
+}
