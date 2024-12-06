@@ -9,22 +9,26 @@ const StyleMainSection = styled.section`
     background-position: center;
     background-size: cover;
     position: relative;
-    z-index: -10;
+    z-index: 0;
 
 `;
 
 const StyleMainContainer = styled.div`
-    padding: 160px 80px 200px 80px;
+    padding: 160px 80px 300px 80px;
     width: 100%;
     display:flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    z-index: 99;
 `;
 
 const StyleMainHeader = styled.h1 `
     font-size: 96px;
     font-weight: 700;
     padding: 0 40px;
-    margin-bottom: 48px;
+    margin-bottom: 100px;
     text-align:center;
     width: 756px;
     background: linear-gradient(to bottom right, blue, pink);

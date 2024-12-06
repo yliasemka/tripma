@@ -1,3 +1,4 @@
+import FlightSearch from "../FlightSearch"
 import { StyleMainContainer, StyleMainSection, StyleMainHeader } from "./style"
 
 const MainSection = () => {
@@ -7,6 +8,7 @@ const MainSection = () => {
                 <StyleMainHeader>
                     It’s more than just a trip
                 </StyleMainHeader>
+                <FlightSearch/>
             </StyleMainContainer>
         </StyleMainSection>
     )
