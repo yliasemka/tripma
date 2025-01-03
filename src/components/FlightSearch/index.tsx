@@ -1,71 +1,37 @@
-import { useFormik } from "formik"
-import { StyleInput, StyleForm, StyleButton, StyleInputWrapper, StyleImgItem,} from "./style"
-
+import { StyleForm, StyleButton} from "./style"
+import InputSearch from "../InputSearch"
 
 const FlightSearch = () => {
 
-    const formik = useFormik({
-        initialValues: {
-            inFlight: '',
-            toFlight: '',
-            dateFlight: '',
-            countPerson: undefined,
-        },
-        onSubmit: values => console.log(JSON.stringify(values, null, 2))
-    })
+/*     const [fromValues, setFormValues] = useState({
+        inFlight: "",
+        toFlight: "",
+        dateFlight: "",
+        countPerson: 0,
+    }) */
 
-    const handleClick = () => {
-        console.log('click')
+    const handleSubmit = (event:any) => {
+        event.preventDefault()
+    
+        const formData = new FormData(event.target)
+
+        const formValues: Record<string, string> = {};
+        formData.forEach((value, key) => {
+            formValues[key] = value.toString();
+        });
+    
+        // Выводим значения формы в консоль
+        console.log(formData)
+        console.log(formValues);
     }
 
     return (
         <>
-            <StyleForm onSubmit={formik.handleSubmit}>
-                <StyleInputWrapper>
-                    <StyleImgItem about="inFlight"/>
-                    <StyleInput
-                        id="inFlight"
-                        type="text" 
-                        name="inFlight"
-                        placeholder="From where?"
-                        value={formik.values.inFlight}
-                        onChange={formik.handleChange}
-                    />
-                </StyleInputWrapper>
-                <StyleInputWrapper>
-                    <StyleImgItem about="toFlight"/>
-                    <StyleInput
-                        id="toFlight"
-                        type="text"
-                        name="toFlight"
-                        placeholder="Where to?"
-                        value={formik.values.toFlight}
-                        onChange={formik.handleChange}
-                    />
-                </StyleInputWrapper>
-                <StyleInputWrapper>
-                    <StyleInput
-                        id="dateFlight"
-                        type="text"
-                        name="dateFlight"
-                        placeholder="Depart - Return"
-                        value={formik.values.dateFlight}
-                        onChange={formik.handleChange}
-                        onClick={handleClick}
-                    />
-                    <StyleImgItem about="dateFlight"/>
-                </StyleInputWrapper>
-                <StyleInputWrapper>
-                    <StyleImgItem about="person"/>
-                    <StyleInput
-                        id="countPerson"
-                        type="number"
-                        name="countPerson"
-                        placeholder="1 adult"
-                        value={formik.values.countPerson}
-                        onChange={formik.handleChange}
-                    />
-                </StyleInputWrapper>
+            <StyleForm onSubmit={handleSubmit}>
+                <InputSearch name='inFlight' placeholder="From where?" type="text"></InputSearch>
+                <InputSearch name='toFlight' placeholder="Where to?" type="text"></InputSearch>
+                <InputSearch name='dateFlight' placeholder="Depart - Return" type="text"></InputSearch>
+                <InputSearch name='countPerson' placeholder="1 adult" type="number"></InputSearch>
                 <StyleButton type="submit">Search</StyleButton>
             </StyleForm>
         </>

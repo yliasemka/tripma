@@ -1,15 +1,19 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../Header";
 import { StyledMainTemplate, Container } from "./style";
-import MainSection from "../MainSection";
+import FlightSection from "../FlightSections";
+import HotelsSection from "../HotelsSection";
+import Comments from "../Comments";
+import Footer from "../Footer";
+
 const MainTemplate = () => {
     return (
         <StyledMainTemplate>
             <Header/>
-            <MainSection/>
             <Container>
-            <Outlet />
+                <Outlet />
             </Container>
+            <Footer/>
         </StyledMainTemplate>
     )
 }

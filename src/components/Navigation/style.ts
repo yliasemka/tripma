@@ -6,9 +6,6 @@ const StyledNav = styled.nav`
     display:flex;
     justify-content: space-between;
     align-items: center;
-
-    max-width: 485px;
-    width: 100%;
 `;
 
 const StyleListNav = styled.ul`
@@ -19,11 +16,12 @@ const StyleListNav = styled.ul`
 `;
 
 const StyleListItem = styled.li`
-    margin-right = 5px;
     padding: 10px;
-    color: #${Colors.INTERACTIVE};
-    font-size: 16px;
     margin-right: 10px;
+    & a {
+        color: #${Colors.INTERACTIVE};
+        font-size: 16px;
+    }
 `;
 
 export {StyledNav, StyleListItem, StyleListNav}

@@ -1,0 +1,117 @@
+{
+    "hotels": [
+        {
+            "title": "Stay among the atolls in Maldives",
+            "description": "From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry shells, a currency of the early ages.",
+            "id": 1,
+            "image": "https://static.independent.co.uk/2024/01/07/11/3-4-scaled.png?width=1200"
+        },
+        {
+            "title": "Experience the Ourika Valley in Morocco",
+            "description": "Morocco's Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary artistic currents in the Middle East.",
+            "id": 2,
+            "image": "https://deih43ym53wif.cloudfront.net/large_chefchaouen-morocco-shutterstock_1090471322_999d0f94d4.jpeg"
+        },
+        {
+            "title": "Live traditionally in Mongolia",
+            "description": "Traditional Mongolian yurts consist of an angled latticework of wood or bamboo for walls, ribs, and a wheel.",
+            "id": 3,
+            "image": "https://2017-2021.state.gov/wp-content/uploads/2019/04/Mongolia-2109x1406.jpg"
+        },
+        {
+            "title": "Stay among the atolls in Maldives",
+            "description": "From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry shells, a currency of the early ages.",
+            "id": 4,
+            "image": "https://static.independent.co.uk/2024/01/07/11/3-4-scaled.png?width=1200"
+        },
+        {
+            "title": "Experience the Ourika Valley in Morocco",
+            "description": "Morocco's Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary artistic currents in the Middle East.",
+            "id": 5,
+            "image": "https://deih43ym53wif.cloudfront.net/large_chefchaouen-morocco-shutterstock_1090471322_999d0f94d4.jpeg"
+        },
+        {
+            "title": "Live traditionally in Mongolia",
+            "description": "Traditional Mongolian yurts consist of an angled latticework of wood or bamboo for walls, ribs, and a wheel.",
+            "id": 6,
+            "image": "https://2017-2021.state.gov/wp-content/uploads/2019/04/Mongolia-2109x1406.jpg"
+        }
+    ],
+    "comments": [
+        {
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my sfgnsfgsnfg ",
+            "id": 1,
+            "stars": 5
+        },
+        {
+            
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me. I booked all of my flights for my gap year through Tripma and never had any issues.  ",
+            "id": 2,
+            "stars": 4
+        },
+        {
+            
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me. I booked all of my flights for my gap year through Tripma and never had any issues.  ",
+            "id": 3,
+            "stars": 3
+        },
+        {
+            
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me. I booked all of my flights for my gap year through Tripma and never had any issues.  ",
+            "id": 4,
+            "stars": 5
+        },
+        {
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me. I booked all of my flights for my gap year through Tripma and never had any issues.  ",
+            "id": 5,
+            "stars": 5
+        },
+        {
+            "avatar": "https://w7.pngwing.com/pngs/782/115/png-transparent-avatar-boy-man-avatar-vol-1-icon-thumbnail.png",
+            "name": "Stan Smith",
+            "bplace":"Seoul, South Korea ",
+            "bdate": "April 2019",
+            "description": "What a great experience using Tripma! I booked all of my flights for my gap year through Tripma and never had any issues. When I had to cancel a flight because of an emergency, Tripma support helped me. I booked all of my flights for my gap year through Tripma and never had any issues.  ",
+            "id": 6,
+            "stars": 5
+        }
+    ],
+    "footer": [
+        {
+            "header":"About",
+            "items":["About Tripma", "How it works", "Careers", "Press", "Blog", "Forum"]
+        },
+        {
+            "header":"Partner with us",
+            "items":["Partnership programs", "Affiliate program", "Connectivity partners", "Promotions and events", "Integrations", "Community", "Loyalty program"]
+        },
+        {
+            "header": "Support",
+            "items":["Help Center", "Contact us", "Privacy policy", "Terms of service", "Trust and safety", "Accessibility"]
+        },
+        {
+            "header":"Get the app",
+            "items":["Tripma for Android", "Tripma for iOS", "Mobile site"]
+        }
+    ]
+}
